@@ -1,5 +1,5 @@
 # CPP
-## 1. Using Pointer
+## 1. Find the address and value of integer though pointer
 
 ```
 #include <iostream>
@@ -16,7 +16,7 @@ int main(){
 }
 
 ```
-## 2. 
+## 2. Direplication
 ```
 #include <iostream>
 using namespace std ;
@@ -29,7 +29,7 @@ int main() {
 }
 
 ```
-&nsbp;
+# #3. dynamical allocates one intege using new int Find the address
 ```
 #include <iostream>
 using namespace std ;
