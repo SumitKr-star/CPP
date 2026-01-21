@@ -14,9 +14,9 @@ int main(){
     
     return 0 ;
 }
-<br>
-
 ```
+<br>
+<br>
 ## 2. Direplication
 ```
 #include <iostream>
@@ -28,9 +28,7 @@ int main() {
     *p = 10;
     cout << x; 
 }
-
 ```
-
 <br>
 ## 3. dynamical allocates one intege using new int Find the address
 ```
@@ -72,6 +70,7 @@ int main() {
     cout << " function pointer : " << fp(number) <<endl ;
     return 0 ;    
 }
+
 ```
 
 
