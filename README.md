@@ -29,7 +29,7 @@ int main() {
 }
 
 ```
-# #3. dynamical allocates one intege using new int Find the address
+## 3. dynamical allocates one intege using new int Find the address
 ```
 #include <iostream>
 using namespace std ;
