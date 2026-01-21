@@ -18,6 +18,7 @@ int main(){
 <br>
 <br>
 ## 2. Direplication
+
 ```
 #include <iostream>
 using namespace std ;
@@ -30,7 +31,9 @@ int main() {
 }
 ```
 <br>
+<br>
 ## 3. dynamical allocates one intege using new int Find the address
+
 ```
 #include <iostream>
 using namespace std ;
@@ -48,6 +51,7 @@ int main() {
     return 0 ;
 }
 ``` 
+<br>
 <br>
 ## 4. Write a function square(int) and call it: Noramlly and using a function pointer.
 
@@ -70,7 +74,6 @@ int main() {
     cout << " function pointer : " << fp(number) <<endl ;
     return 0 ;    
 }
-
 ```
 
 
