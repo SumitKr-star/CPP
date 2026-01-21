@@ -1,5 +1,5 @@
 # CPP
-##Using Pointer
+## Using Pointer
 
 ```
 #include <iostream>
