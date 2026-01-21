@@ -69,7 +69,7 @@ int main() {
     int number;
     cout << "Enter the number: " ;
     cin >> number ;
-    cout << "The square of "<< number << " is " <<  square(number) <<endl ;;
+    cout << "The square of "<< number << " is " <<  square(number) <<endl ;
     
     int (*fp)(int) ;
     fp = square ;
@@ -77,5 +77,62 @@ int main() {
     return 0 ;    
 }
 ```
+<br>
+<br>
 
+## 5.Change pointer to pointer.
 
+```
+#include <iostream>
+using namespace std ;
+
+int main() {
+    int a = 1, b =2 ;
+    int *p = &a;
+    p = &b;
+    *p = 5;
+    cout<<" value of a is "<<a<<endl<<" value of b is " <<b ;
+    return 0 ;
+}
+```
+<br>
+<br>
+
+## 6.Pointer to pointer.
+
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 10 ;
+    int *p = &x ;
+    int **pp = &p ;
+    **p = 20 ;
+    cout << x ;
+
+    return 0 ;
+}
+```
+<br>
+<br>
+
+## 7. Using pointer in ARRAY.
+```
+#include <iostream>
+using namespace std ;
+
+int main() {
+    int a[5] = {2, 4, 6, 8, 10} ;
+    int *p = a;
+    cout << *p++ <<endl ;
+    cout << *p ;
+
+    return 0 ;
+}
+```
+<br>
+<br>
+
+## 8. 
+```
