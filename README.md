@@ -32,6 +32,7 @@ int main() {
 ```
 <br>
 <br>
+
 ## 3. dynamical allocates one intege using new int Find the address
 
 ```
@@ -53,6 +54,7 @@ int main() {
 ``` 
 <br>
 <br>
+
 ## 4. Write a function square(int) and call it: Noramlly and using a function pointer.
 
 ```
