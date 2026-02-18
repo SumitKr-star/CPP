@@ -135,5 +135,54 @@ int main() {
 <br>
 <br>
 
-## 8. 
+## 8. Create Student Class.
 ```
+#include <iostream>
+using namespace std;
+
+class student {
+private:
+    string Name ;
+    int Roll ;
+    float Marks ;
+    
+public:
+    void input() {
+         cout << "Enter the name: " ;
+         cin >> Name ;
+         cout << "Enter the Roll: " ;
+         cin >> Roll ;
+         cout << "Enter the marks: " ;
+         cin >> Marks ;
+    }
+    void display() {
+        cout << "\nName: " << Name ;
+        cout << "\nRoll: " << Roll ;
+        cout << "\nMarks: " << Marks ;
+    }
+    
+};
+
+int main () {
+    student s1, s2, s3;
+    cout << "Enter detail of student 1\n" ;
+    s1.input();
+
+    cout << "\nEnter detail of student 2\n" ;
+    s2.input();
+
+    cout << "\nEnter detail of student 3\n" ;
+    s3.input();
+
+    cout << "\n--- Student Details ---";
+    s1.display();
+    s2.display();
+    s3.display();
+
+    return 0;
+}
+```
+<br>
+<br>
+
+##9. 
