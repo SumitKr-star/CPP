@@ -1,31 +1,18 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
+using namespace std;
 
-int main(int argc, char *argv[])
+int main()
 {
-    int n;
-    int i;
-    float sum = 0;
+    int  n , sum = 0 ;
+    cout << "Entera postive integer" ;
+    cin >> n ;
 
-    // Check if value is given in command line
-    if (argc > 1)
+    for (int i = 1 ; i<=n ; i++)
     {
-        n = atoi(argv[1]);
-    }
-    else
-    {
-        printf("Enter value of n: ");
-        scanf("%d", &n);
+        sum = sum + i ;
     }
 
-    // Calculate the sum
-    for (i = 1; i <= n; i++)
-    {
-        sum = sum + (float)i / (i + 4);
-    }
-
-    // Print the result
-    printf("Sum = %f", sum);
+    cout << "THe sum of postive integers is = " << sum ;
 
     return 0;
 }
